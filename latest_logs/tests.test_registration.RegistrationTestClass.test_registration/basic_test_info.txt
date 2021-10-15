@@ -1,0 +1,22 @@
+test_registration.py::RegistrationTestClass::test_registration
+--------------------------------------------------------------------
+Last Page: https://www.abcmouse.com/abc/?8a08850bc2=T2891739747.1634293948.9353
+  Browser: chrome
+Timestamp: 1634293966  (Unix Timestamp)
+     Date: Friday, October 15, 2021
+     Time: 3:32:46 AM  (PDT, UTC-08:00)
+--------------------------------------------------------------------
+Traceback: File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 593, in run
+    self._callTestMethod(testMethod)
+  File "/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 550, in _callTestMethod
+    method()
+  File "/Users/taylormcginnis/PycharmProjects/aol/tests/test_registration.py", line 20, in test_registration
+    self.click(HomePage.sign_up_button)
+  File "/Users/taylormcginnis/PycharmProjects/aol/venv/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py", line 208, in click
+    element = page_actions.wait_for_element_visible(
+  File "/Users/taylormcginnis/PycharmProjects/aol/venv/lib/python3.9/site-packages/seleniumbase/fixtures/page_actions.py", line 370, in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+  File "/Users/taylormcginnis/PycharmProjects/aol/venv/lib/python3.9/site-packages/seleniumbase/fixtures/page_actions.py", line 163, in timeout_exception
+    raise exception(message)
+Exception: Message: 
+ Element {signup-button} was not present after 6 seconds!

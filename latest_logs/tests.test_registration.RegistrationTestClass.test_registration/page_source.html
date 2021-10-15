@@ -1,0 +1,1982 @@
+<base href="https://www.abcmouse.com">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" id="home-element" class="lazy-load"><head>
+    <title>ABCmouse: Educational Games, Books, Puzzles &amp; Songs for Kids &amp; Toddlers</title>
+    <style>/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+ html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox &lt; 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  overflow: visible;
+}
+
+button:focus {
+  outline: none;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+@media screen and (orientation: landscape) {
+  /* This fixes a iOS webkit redraw with slotted elements*/
+  @-webkit-keyframes iosWebkitLandscape {from { zoom: 99.99999%; } to { zoom: 100%; }}
+  @keyframes iosWebkitLandscape {from { zoom: 99.99999%; } to { zoom: 100%; }}
+  html {
+    -webkit-animation: iosWebkitLandscape linear 1ms;
+            animation: iosWebkitLandscape linear 1ms;
+  }
+}
+
+@media screen and (orientation: portrait) {
+    /* This fixes a iOS webkit redraw with slotted elements*/
+  @-webkit-keyframes iosWebkitPortrait {from { zoom: 100.00001%; } to { zoom: 100%; }}
+  @keyframes iosWebkitPortrait {from { zoom: 100.00001%; } to { zoom: 100%; }}
+  html {
+    -webkit-animation: iosWebkitPortrait linear 1ms;
+            animation: iosWebkitPortrait linear 1ms;
+  }
+}
+@font-face {
+  font-family: 'abcmouseSans';
+  src: url(/abc/ABCmouseSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'abcmouseSans';
+  src: url(/abc/ABCmouseSans-BoldIt.woff);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'abcmouseSans';
+  src: url(/abc/ABCmouseSans-Light.woff);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'abcmouseSans';
+  src: url(/abc/ABCmouseSans-LightIt.woff);
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'abcmouseSans';
+  src: url(/abc/ABCmouseSans-Regular.woff);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'abcmouseSans';
+  src: url(/abc/ABCmouseSans-RegularIt.woff);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'abcmouseSans';
+  src: url(/abc/ABCmouseSans-Semibold.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'abcmouseSans';
+  src: url(/abc/ABCmouseSans-SemiboldIt.woff);
+  font-weight: 500;
+  font-style: italic;
+}
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  background-color: #002068;
+  width: 100vw;
+  max-width: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.15;
+  color: #545454;
+  height: 100%;
+  width: 100%;
+}
+
+route-view {
+  display: none;
+}
+
+route-view.loaded {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 auto;
+          flex: 1 auto;
+  position: relative;
+  width: 102.4rem;
+  margin: 0 auto;
+}
+
+html.lazy-load {
+  background-image: url('/assets-mkt/template/main/letter-bg-v1.png');
+}
+
+.lazy-load .abcmouse-sans {
+  font-family: 'abcmouseSans';
+}
+
+:host(.lazy-load) .abcmouse-sans {
+  font-family: 'abcmouseSans';
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 0.9765625vw;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  html {
+    font-size: 1.76056338028169vw;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  route-view.loaded {
+    width: 100%;
+    margin: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
+
+@media print {
+	@page {
+		margin: 0;
+	}
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  color: #004396;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: 2.1875rem;
+  line-height: 0.95;
+}
+
+h3 {
+  font-size: 1.875rem;
+  line-height: 1;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.05;
+}
+
+h5 {
+  font-size: 1.125rem;
+  line-height: 1.1;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.15;
+}
+
+p {
+  margin-top: 0;
+}
+
+blockquote {
+  font-style: italic;
+}
+.link, a {
+  color: #0a4792;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.underlined-link {
+  color: #0a4792;
+  text-decoration: underline;
+}
+.button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background: #5d85cd;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(10%, #5d85cd),color-stop(48%, #0647bb));
+  background: linear-gradient(180deg,#5d85cd 10%,#0647bb 48%);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  padding: 0 .675rem;
+  text-align: center;
+  position: relative;
+  border: none;
+  border-radius: 1.2rem;
+  border: 0.3rem solid #00246a;
+}
+
+.button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  outline: 0;
+}
+
+.button.orange,
+button.orange,
+input[type="submit"].orange,
+input[type="reset"].orange,
+input[type="button"].orange {
+  background: #ff9451;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(10%, #ff9451),color-stop(48%, #ff6a0e));
+  background: linear-gradient(180deg,#ff9451 10%,#ff6a0e 48%);
+}
+
+.button.orange::after,
+button.orange::after,
+input[type="submit"].orange::after,
+input[type="reset"].orange::after,
+input[type="button"].orange::after {
+  border: 0.3rem solid #ba4a05;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-button {
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #ffd547),color-stop(50%, #ffd547),color-stop(51%, #ffcb2f),to(#ffcb2f));
+  background: linear-gradient(180deg,#ffd547 0,#ffd547 50%,#ffcb2f 51%,#ffcb2f);
+  border-radius: 0.1rem;
+  -webkit-box-shadow: 0.1rem 0.1rem 0.2rem 0 hsla(0,0%,52%,.7);
+          box-shadow: 0.1rem 0.1rem 0.2rem 0 hsla(0,0%,52%,.7);
+  border: 0.1rem solid #ffcf1e;
+  color: #003ea5;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0.8rem 0;
+  text-align: center;
+  cursor: pointer;
+  width: 10.9rem;
+}
+
+.header-button.login-button {
+  padding: 0;
+}
+
+.blue-button {
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(10%, #5d85cd),color-stop(48%, #0647bb));
+  background: linear-gradient(180deg,#5d85cd 10%,#0647bb 48%);
+  border: .3rem solid #00246a;
+  border-radius: 1.2rem;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.green-button {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #05cc05), color-stop(48%, #009900));
+  background: linear-gradient(180deg, #05cc05 10%, #009900 48%);
+  border: .3rem solid #005500;
+  border-radius: 1.2rem;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.orange-button {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #ff9451), color-stop(48%, #ff6a0e));
+  background: linear-gradient(180deg, #ff9451 10%, #ff6a0e 48%);
+  border-radius: 1.2rem;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.yellow-button {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #ffe591), color-stop(48%, #fc0));
+  background: linear-gradient(180deg, #ffe591 10%, #fc0 48%);
+  border-radius: 1.2rem;
+  color: #000;
+  font-weight: 700;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media only screen and (max-width: 568px) {
+  .header-button {
+    cursor: pointer;
+    width: 7.3rem;
+  }
+
+  .back-button {
+    margin-left: 1rem;
+  }
+}
+/*
+==========================================
+FORMS
+==========================================
+*/
+
+form, fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 1.7rem;
+}
+
+.input-container.false {
+  margin-bottom: 3rem;
+}
+
+.input-container &gt; :first-child {
+  text-align: right;
+}
+
+.input-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  background: #fff;
+  border: 0.2rem solid #034ca6;
+  border-radius: 0.4rem;
+  -webkit-box-shadow: inset 1px 1px 5px rgba(0,0,0,.2);
+          box-shadow: inset 1px 1px 5px rgba(0,0,0,.2);
+  font-size: 1.28rem;
+  height: 4rem;
+  line-height: 2rem;
+  padding: 0 0.56rem;
+}
+
+input[type="checkbox"] {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: 3;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label {
+  font-size: 1.8rem;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  /* text-indent: 1.375em; */
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label::before,
+input[type="checkbox"]:checked + label::after {
+  content: '';
+  cursor: pointer;
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: -2.9rem;
+  top: -0.1875em;
+}
+
+input[type="checkbox"] + label::before {
+  background: #fff;
+  border: 0.0625em solid #0f3173;
+  -webkit-box-shadow: 0.1em 0.1em 0.1em #b8b8b8;
+          box-shadow: 0.1em 0.1em 0.1em #b8b8b8;
+}
+
+input[type="checkbox"]:checked + label::after {
+  position: absolute;
+  left: -2.5rem;
+  top: -0.4375em;
+  background: url('/assets-mkt/template/main/check-mark-v1.png') no-repeat center;
+  background-size: 100%;
+}
+
+
+/*
+==========================================
+RADIO BUTTONS WITH CHECKBOX THEME
+==========================================
+*/
+
+input[type="radio"].checkbox-theme {
+  display: none;
+}
+
+input[type="radio"].checkbox-theme + label {
+  position: relative;
+  text-align: left;
+  padding-left: 1.5em;
+  cursor: pointer;
+}
+
+input[type="radio"].checkbox-theme + label::before,
+input[type="radio"].checkbox-theme:checked + label::after {
+  content: '';
+  cursor: pointer;
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 0;
+}
+
+input[type="radio"].checkbox-theme + label::before {
+  background: #fff;
+  border: 0.0625em solid #0f3173;
+  -webkit-box-shadow: 0.1em 0.1em 0.1em rgb(184, 184, 184, 1);
+          box-shadow: 0.1em 0.1em 0.1em rgb(184, 184, 184, 1);
+}
+
+input[type="radio"].checkbox-theme:checked + label::after {
+  position: absolute;
+  left: 0.17em;
+  top: -0.17em;
+  background: url('/assets-mkt/template/main/check-mark-v1.png') no-repeat center;
+  background-size: 100%;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+textarea {
+  min-height: 6.5rem;
+  padding: 0.6rem;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+}
+
+label,
+legend {
+  display: block;
+  font-weight: 700;
+}
+
+label {
+  color: #033eaa;
+  cursor: pointer;
+  font-size: 1.44rem;
+}
+
+fieldset {
+  padding: 0;
+  border-width: 0;
+}
+
+label &gt; .label-body {
+  display: inline-block;
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
+.error-message {
+  color: red;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  position: relative;
+  cursor: auto;
+  bottom: -1.9rem;
+ }
+
+.error-message ~ .error-message {
+  display: none;
+}
+
+.vertical-form .input-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.vertical-form .input-container &gt; :first-child,
+.vertical-form .input-container &gt; :last-child {
+  width: 100%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 568px) {
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="text"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="password"],
+  textarea,
+  select {
+    font-size: 1.92rem;
+    height: 4.9rem;
+    line-height: 3.5rem;
+    padding: .6rem;
+  }
+
+  label {
+    font-size: 2.56rem;
+  }
+
+  .error-message {
+    font-size: 1.5rem;
+  }
+}
+* {
+  --aofl-dark-blue: #003574;
+  --aofl-primary-red: #e30a0a;
+  --aofl-primary-yellow: #fdf667;
+  --aofl-primary-border-orange: .7rem solid #fc0;
+  --aofl-primary-border-orange: .7rem solid #fc0;
+  --aofl-primary-blue-gradient: linear-gradient(180deg,#5d85cd 10%,#0647bb 48%);
+  --aofl-primary-red-gradient: linear-gradient(180deg,#fc0000 0,#c00);
+  --z-index-1: 1000;
+  --z-index-2: 2000;
+  --z-index-3: 3000;
+  --z-index-4: 4000;
+  --z-index-5: 5000;
+  --z-index-6: 6000;
+  --z-index-7: 7000;
+  --z-index-8: 8000;
+  --z-index-9: 9000;
+  --z-index-10: 10000;
+}
+
+.abcmouse-sans {
+  font-family: 'abcmouseSans';
+}
+
+.u-br::after {
+  content: "\A";
+  white-space: pre;
+}
+
+.u-m-br::after {
+  content: "";
+}
+
+.u-no-wrap {
+  white-space: nowrap;
+}
+
+.u-d-hide {
+  display: none;
+}
+
+.u-hide {
+  display: none;
+}
+
+@media only screen and (max-width: 568px) {
+  .u-br::after {
+    content: "";
+  }
+
+  .u-m-br::after {
+    content: "\A";
+    white-space: pre;
+  }
+
+  .u-m-hide {
+    display: none !important;
+  }
+
+  .u-d-hide {
+    display: block;
+  }
+}
+#page-content {
+  position: relative;
+  padding: 6.1rem 6rem 3rem;
+  text-align: left;
+}
+
+main-layout {
+  -webkit-box-shadow: 0 0 4rem 0.2rem #000;
+          box-shadow: 0 0 4rem 0.2rem #000;
+}
+
+aofl-img {
+  width: 100%;
+}
+
+.header-red {
+  color: var(--aofl-primary-red);
+}
+
+.header-blue {
+  color: #0058c3;
+}
+
+.page-tag {
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(10%, #5d85cd),color-stop(48%, #0647bb));
+  background: linear-gradient(180deg,#5d85cd 10%,#0647bb 48%);
+  border-radius: 1.28rem;
+  color: #fff;
+  font-size: 4rem;
+  font-family: 'abcmouseSans';
+  font-weight: 700;
+  line-height: 4.4rem;
+  padding: .5rem 2.5rem 0.7rem;
+  position: absolute;
+  left: 51.2rem;
+  top: 0;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  white-space: nowrap;
+  z-index: var(--z-index-7);
+  border: .2rem solid #00246a;
+}
+
+.page-tag.blue-tag {
+  background: var(--aofl-primary-blue-gradient);
+  border: .2rem solid #00246a;
+  color: #fff;
+}
+
+.page-tag.yellow-tag {
+  z-index: var(--z-index-2);
+  border: 0.5rem solid #fed201;
+  background: #fee63e;
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0.3rem 1rem 0 rgba(0, 0, 0, 0.3);
+  color: #000;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.15;
+  padding: 0.3rem 6.0575rem;
+}
+
+.page-tag.yellow-tag::after {
+  border: none;
+}
+
+.page-tag.yellow-tag &gt; em {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.page-tag.yellow-tag .blue {
+  color: #0076cb;
+}
+
+.page-tag.yellow-tag .red {
+  color: #f01d02;
+}
+
+.ribbon {
+  position: relative;
+}
+
+.ribbon-text {
+  color: #fff;
+  font-size: 5.9rem;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(50%, -60%);
+          transform: translate(50%, -60%);
+  width: 100%;
+}
+
+.panel {
+  margin-bottom: 4.5rem;
+}
+
+.panel-header {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  -webkit-box-shadow: 0 0 0.5rem 0.1rem rgb(204, 204, 204);
+          box-shadow: 0 0 0.5rem 0.1rem rgb(204, 204, 204);
+  color: #fff;
+  font-size: 4.68rem;
+  margin-bottom: 0;
+  padding: 1.6rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.panel-footer {
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  -webkit-box-shadow: 0 0 0.5rem 0.1rem rgb(204, 204, 204);
+          box-shadow: 0 0 0.5rem 0.1rem rgb(204, 204, 204);
+  color: #fff;
+  font-size: 4.68rem;
+  padding: 1.6rem 0;
+}
+
+.panel-header.green {
+  background: #73be37;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #73be37),to(#069401));
+  background: linear-gradient(to bottom,#73be37 0,#069401 100%);
+  text-shadow: 0 0.2rem 0.3rem #248f10;
+}
+
+.panel-header.yellow {
+  background: #fdd033;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #fdd033),to(#ffad00));
+  background: linear-gradient(to bottom,#fdd033 0,#ffad00 100%);
+  text-shadow: 0 0.2rem 0.3rem #d79c0c;
+}
+
+.panel-header.purple {
+  background: #b315e7;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #b315e7),to(#8604a6));
+  background: linear-gradient(to bottom,#b315e7 0,#8604a6 100%);
+  text-shadow: 0 0.2rem 0.3rem #8207a4;
+}
+
+.panel-header.lightblue {
+  background: #42b0ea;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #42b0ea),to(#0d73e2));
+  background: linear-gradient(to bottom,#42b0ea 0,#0d73e2 100%);
+  text-shadow: 0 0.2rem 0.3rem #1875cb;
+}
+
+.panel-header.blue {
+  background: #0065e0;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #0065e0),to(#034ca6));
+  background: linear-gradient(to bottom,#0065e0 0,#034ca6 100%);
+  text-shadow: 0 0.2rem 0.3rem #02499f;
+}
+
+.panel-header.red {
+  background: #fc0000;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #fc0000),to(#c00));
+  background: linear-gradient(to bottom,#fc0000 0,#c00 100%);
+}
+
+.panel-content {
+  background: #fff;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  -webkit-box-shadow: 0 0.2rem 0.5rem 0.1rem rgb(204, 204, 204);
+          box-shadow: 0 0.2rem 0.5rem 0.1rem rgb(204, 204, 204);
+  position: relative;
+}
+
+.no-header .panel-content {
+  border-radius: 3rem;
+}
+
+.no-header.panel-content {
+  border-radius: 3rem;
+}
+
+.has-footer .panel-content {
+  border-radius: 0;
+  border-bottom: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.no-header.has-footer .panel-content {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.panel-content.red {
+  border: 0.4rem solid #c00;
+}
+
+.panel-content.green {
+  border: 0.4rem solid #069401;
+}
+
+.panel-content.yellow {
+  border: 0.4rem solid #ffad00;
+}
+
+.panel-content.purple {
+  border: 0.4rem solid #8604a6;
+}
+
+.panel-content.lightblue {
+  border: 0.4rem solid #0d73e2;
+}
+
+.panel-content.blue {
+  border: 0.4rem solid #034ca6;
+}
+
+:not(.no-header) &gt; .panel-content {
+  border-top: none;
+}
+
+.panel-footer.blue {
+  background: #0064de;
+  background: -webkit-gradient(linear,left top, left bottom,color-stop(0, #0064de),to(#034ca7));
+  background: linear-gradient(to bottom,#0064de 0,#034ca7 100%);
+  border: 0.4rem solid #073486;
+}
+
+.panel-footer.red.with-fill {
+  background: #fc0000;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fc0000), to(#c00));
+  background: linear-gradient(to bottom, #fc0000 0, #c00 100%);
+}
+
+.panel-footer.red {
+  border-style: solid;
+  border-color: #c00;
+  border-width: 0 0.4rem 0.4rem 0.4rem;
+}
+
+.panel-text {
+  font-size: 2.186rem;
+  text-align: left;
+}
+
+.panel-text h4 {
+  color: #545454;
+}
+
+.white-bg {
+  background: #fff;
+}
+
+.lightblue-bg {
+  background: #def4ff;
+}
+
+.lightyellow-bg {
+  background: #fffef1;
+}
+
+.yellow-bg {
+  background: #fff8a8;
+}
+
+@media only screen and (max-width: 868px) and (min-width: 569px) and (orientation: landscape) {
+  .panel-content {
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  #page-content {
+    padding: 4rem 2.8rem 3rem;
+  }
+
+  .page-tag {
+    border-radius: 1.3rem;
+    font-size: 2.7rem;
+    left: 29.4rem;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    line-height: 2.5rem;
+    padding: .8rem 2rem .8rem;
+  }
+
+  .page-tag::after {
+    border-radius: 1.3rem;
+  }
+
+  .has-footer-m .panel-content {
+    border-radius: 0;
+    border-bottom: none !important;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .panel-header {
+    font-size: 4.164rem;
+    padding: 2.15rem 0;
+  }
+}
+#simple-modal-container {
+  z-index: var(--z-index-10);
+}#captcha-modal {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  width: 56.5rem;
+}
+
+#px-captcha {
+  margin: 0 3rem 3rem 3rem;
+}
+
+#verify {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+#captcha-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#captcha-modal-header {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 6rem;
+  font-weight: 700;
+  margin-bottom: -1px;
+  padding: 0 1.1rem 0 2rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+</style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
+    <meta name="description" content="ABCmouse.com helps kids learn to read through phonics, and teaches lessons in math, social studies, art, music, and much more. For kids age 2 to Kindergarten." />
+<meta name="keywords" content="Learn, learning, learn to read, math, early learning, early childhood education, online books, phonics, printables, pbs, pbskids.com, starfall, starfall.com, funbrain, teacher" />
+<meta property="og:title" content="ABCmouse.com" />
+<meta property="og:image" content="https://img.abcmouse.com/fb/ABCmouse.jpg" />
+<meta property="og:site_name" content="ABCmouse.com" />
+<meta property="og:description" content="ABCmouse.com helps kids learn to read through phonics, and teaches lessons in math, social studies, art, music, and much more! For kids ages 2 to 8." />
+<meta property="og:url" href="https://www.abcmouse.com" />
+
+    <script type="text/javascript" async="" src="https://d38xvr37kwwhcm.cloudfront.net/js/grin-sdk.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="//bat.bing.com/bat.js" async=""></script><script>/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' &amp;&amp; Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode &amp; 1: value is a module id, require it
+/******/ 	// mode &amp; 2: merge all properties of value into the ns
+/******/ 	// mode &amp; 4: return value when already ns object
+/******/ 	// mode &amp; 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode &amp; 1) value = __webpack_require__(value);
+/******/ 		if(mode &amp; 8) return value;
+/******/ 		if((mode &amp; 4) &amp;&amp; typeof value === 'object' &amp;&amp; value &amp;&amp; value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode &amp; 2 &amp;&amp; typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module &amp;&amp; module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/abc/";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/modules/__config/is-supported.js");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./node_modules/compare-versions/index.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* global define */
+(function (root, factory) {
+  /* istanbul ignore next */
+  if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined &amp;&amp; (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+}(this, function () {
+
+  var semver = /^v?(?:\d+)(\.(?:[x*]|\d+)(\.(?:[x*]|\d+)(\.(?:[x*]|\d+))?(?:-[\da-z\-]+(?:\.[\da-z\-]+)*)?(?:\+[\da-z\-]+(?:\.[\da-z\-]+)*)?)?)?$/i;
+
+  function indexOrEnd(str, q) {
+    return str.indexOf(q) === -1 ? str.length : str.indexOf(q);
+  }
+
+  function split(v) {
+    var c = v.replace(/^v/, '').replace(/\+.*$/, '');
+    var patchIndex = indexOrEnd(c, '-');
+    var arr = c.substring(0, patchIndex).split('.');
+    arr.push(c.substring(patchIndex + 1));
+    return arr;
+  }
+
+  function tryParse(v) {
+    return isNaN(Number(v)) ? v : Number(v);
+  }
+
+  function validate(version) {
+    if (typeof version !== 'string') {
+      throw new TypeError('Invalid argument expected string');
+    }
+    if (!semver.test(version)) {
+      throw new Error('Invalid argument not valid semver (\''+version+'\' received)');
+    }
+  }
+
+  function compareVersions(v1, v2) {
+    [v1, v2].forEach(validate);
+
+    var s1 = split(v1);
+    var s2 = split(v2);
+
+    for (var i = 0; i &lt; Math.max(s1.length - 1, s2.length - 1); i++) {
+      var n1 = parseInt(s1[i] || 0, 10);
+      var n2 = parseInt(s2[i] || 0, 10);
+
+      if (n1 &gt; n2) return 1;
+      if (n2 &gt; n1) return -1;
+    }
+
+    var sp1 = s1[s1.length - 1];
+    var sp2 = s2[s2.length - 1];
+
+    if (sp1 &amp;&amp; sp2) {
+      var p1 = sp1.split('.').map(tryParse);
+      var p2 = sp2.split('.').map(tryParse);
+
+      for (i = 0; i &lt; Math.max(p1.length, p2.length); i++) {
+        if (p1[i] === undefined || typeof p2[i] === 'string' &amp;&amp; typeof p1[i] === 'number') return -1;
+        if (p2[i] === undefined || typeof p1[i] === 'string' &amp;&amp; typeof p2[i] === 'number') return 1;
+
+        if (p1[i] &gt; p2[i]) return 1;
+        if (p2[i] &gt; p1[i]) return -1;
+      }
+    } else if (sp1 || sp2) {
+      return sp1 ? -1 : 1;
+    }
+
+    return 0;
+  };
+
+  var allowedOperators = [
+    '&gt;',
+    '&gt;=',
+    '=',
+    '&lt;',
+    '&lt;='
+  ];
+
+  var operatorResMap = {
+    '&gt;': [1],
+    '&gt;=': [0, 1],
+    '=': [0],
+    '&lt;=': [-1, 0],
+    '&lt;': [-1]
+  };
+
+  function validateOperator(op) {
+    if (typeof op !== 'string') {
+      throw new TypeError('Invalid operator type, expected string but got ' + typeof op);
+    }
+    if (allowedOperators.indexOf(op) === -1) {
+      throw new TypeError('Invalid operator, expected one of ' + allowedOperators.join('|'));
+    }
+  }
+
+  compareVersions.validate = function(version) {
+    return typeof version === 'string' &amp;&amp; semver.test(version);
+  }
+
+  compareVersions.compare = function (v1, v2, operator) {
+    // Validate operator
+    validateOperator(operator);
+
+    // since result of compareVersions can only be -1 or 0 or 1
+    // a simple map can be used to replace switch
+    var res = compareVersions(v1, v2);
+    return operatorResMap[operator].indexOf(res) &gt; -1;
+  }
+
+  return compareVersions;
+}));
+
+
+/***/ }),
+
+/***/ "./src/modules/__config/is-supported.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+/*eslint-disable*/
+var compareVersions = __webpack_require__("./node_modules/compare-versions/index.js");
+
+var legacyUrlMap = __webpack_require__("./src/modules/__config/legacy-url-map.js");
+
+var browserFuncs = [isInvalidAndroidVersion, isInternetExplorer, isClassicEdge, isAmazonSilk, isMutationObserverUndefined];
+var deviceFuncs = [isIpadTwo];
+
+function isInvalidAndroidVersion() {
+  var MIN_SUPPORTED_ANDROID_VERSION = '4.4.4';
+  var version = navigator.userAgent.match(/Android\s([0-9\.]*)/);
+  version = version ? version[1].replace('Android', '').trim() : null;
+  if (typeof version !== 'string') return false; // not android device
+
+  if (version === MIN_SUPPORTED_ANDROID_VERSION) return false;
+  var nonNumericRegex = /(\D)/g;
+  var vArray = version.split(nonNumericRegex);
+  var minVArray = MIN_SUPPORTED_ANDROID_VERSION.split(nonNumericRegex);
+  var len = Math.max(vArray.length, minVArray.length);
+
+  for (var i = 0; i &lt; len; i++) {
+    if (typeof vArray[i] === 'undefined') {
+      vArray[i] = '0';
+    }
+
+    if (typeof minVArray[i] === 'undefined') {
+      minVArray[i] = '0';
+    }
+
+    if (parseInt(vArray[i], 10) &gt; minVArray[i]) {
+      return false;
+    } else if (parseInt(vArray[i], 10) &lt; minVArray[i]) {
+      return true;
+    }
+  }
+}
+
+function isInternetExplorer() {
+  var ua = window.navigator.userAgent;
+  var msie = ua.indexOf('MSIE ');
+  var trident = ua.indexOf('Trident/');
+
+  if (msie &gt; 0 || trident &gt; 0) {
+    return true;
+  }
+
+  return false;
+}
+
+;
+
+function isClassicEdge() {
+  var ua = window.navigator.userAgent;
+  var versionRegex = /\bChrome[/]+[0-9]+[0-9]\b/;
+  var classicEdgeBrowser = ua.indexOf('Chrome');
+  var isMobileAndroid = ua.indexOf('Mobile') &gt; 0 || ua.indexOf('Android') &gt; 0;
+
+  if (classicEdgeBrowser &gt; 0 &amp;&amp; !isMobileAndroid) {
+    var chromeVersion = versionRegex.exec(ua)[0].slice(-2);
+    var isOlderThan = compareVersions.compare(chromeVersion, '75', '&lt;');
+    return isOlderThan;
+  }
+}
+
+;
+
+function isIpadTwo() {
+  var ua = window.navigator.userAgent;
+  var versionRegex = /\b[0-9]+_[0-9]+(?:_[0-9]+)?\b/;
+  var ipadDevice = ua.indexOf('iPad');
+
+  if (ipadDevice &gt; 0) {
+    var osVersion = versionRegex.exec(ua)[0].replace(/_/g, '.');
+    var isOlderThan = compareVersions.compare(osVersion, '9.3.5', '&lt;=');
+    return isOlderThan;
+  }
+}
+
+;
+
+function isAmazonSilk() {
+  var ua = window.navigator.userAgent;
+  var silkDevice = ua.indexOf('Silk/');
+
+  if (silkDevice &gt; 0) {
+    return true;
+  }
+
+  return false;
+}
+
+function isMutationObserverUndefined() {
+  return typeof window.MutationObserver === 'undefined';
+}
+
+function isWebCrawler() {
+  return /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent);
+}
+
+var webCrawler = isWebCrawler();
+
+function isSupported() {
+  if (!webCrawler) {
+    for (var i = 0; i &lt; browserFuncs.length; i++) {
+      if (browserFuncs[i]()) {
+        return false;
+      }
+    }
+
+    for (var i = 0; i &lt; deviceFuncs.length; i++) {
+      if (deviceFuncs[i]()) {
+        return false;
+      }
+    }
+  }
+
+  return true;
+}
+
+var APP_NAME_REGEX = /appname:([^|]+)/i;
+var APP_VERSION_REGEX = /appversion:([0-9._]+)/;
+var APP_STORE_NAME_REGEX = /store:([^|]+)/i;
+
+function appName() {
+  var matches = APP_NAME_REGEX.exec(navigator.userAgent);
+  return matches ? matches[0] : matches;
+}
+
+function appVersion() {
+  var matches = APP_VERSION_REGEX.exec(navigator.userAgent);
+  return matches ? matches[0] : matches;
+}
+
+function appStoreName() {
+  var matches = APP_STORE_NAME_REGEX.exec(navigator.userAgent);
+  return matches ? matches[0] : matches;
+}
+
+function isApp() {
+  return appName() || appVersion() || appStoreName();
+}
+
+var isUnificationSupported = isSupported();
+var isInApp = isApp();
+
+if (!isUnificationSupported &amp;&amp; !isInApp) {
+  var legacyUrl = legacyUrlMap[window.location.pathname];
+
+  if (legacyUrl) {
+    window.location = legacyUrl;
+  } else {
+    window.location = '/404';
+  }
+}
+
+/***/ }),
+
+/***/ "./src/modules/__config/legacy-url-map.js":
+/***/ (function(module, exports) {
+
+var legacyUrlMap = {
+  '/abc/404/': '/404',
+  '/abc/assessment-purchase/': '/assessments-purchase',
+  '/abc/reset-password/': '/resetpwd',
+  '/abc/extend-account/': '/extend_account_amazon',
+  '/abc/download-app/': '/appdload',
+  '/abc/': '/',
+  '/abc/es/': '/es',
+  '/abc/privacy/current/': '/privacy',
+  '/abc/tandc/current/': '/tandc',
+  '/abc/subscription/': '/subscription',
+  '/abc/subscription/es/': '/subscription',
+  '/abc/forgot-password/': '/forgotpwd',
+  '/abc/subscription/offer/17b87c/': '/installment_sub_exp/15/1619028671/447a6072e6ee380aabd1e633dceba25a',
+  // 'installment_sub_exp_15'
+  '/abc/subscription/offer/0827da/': '/installment_sub_exp/35/1619028671/2df981767c9082d8eb371c0ddc33e903',
+  // 'installment_sub_exp_35'
+  '/abc/subscription/offer/684eu5w/': '/subscription?installment_sub=14',
+  // 'installment_sub_exp_36'
+  '/abc/subscription/offer/747ap9t/': '/subscription?installment_sub=14',
+  // 'installment_sub_exp_36'
+  '/abc/subscription/offer/858bq0u/': '/subscription?installment_sub=14',
+  // 'installment_sub_exp_36'
+  '/abc/subscription/offer/786e4e/': '/abc/update-browser',
+  '/abc/subscription/offer/4ty6ra/': '/installment_sub_exp/15/1924934400/ece3735a3c1ba20c801f5f61ef0db942',
+  // 'installment_sub_exp_37'
+  '/abc/subscription/offer/775f4d/': '/installment_sub_exp/37/1619028671/7658c8fcc5cfb9429c97eccea4220c81',
+  // 'installment_sub_exp_37'
+  '/abc/subscription/offer/3acf5e/': '/installment_sub_exp/38/1619028671/1e274163be63b163961d8c7b64b328bb',
+  // 'installment_sub_exp_37'
+  '/abc/subscription/offer/1d3cd3/': '/dsub/link/MTYxMTgyMDgwMA',
+  // $1 for 1 Month
+  '/abc/subscription/offer/218d1b/': '/subscription?installment_sub=23',
+  // $29.95 every 6 Months
+  '/abc/subscription/offer/4a808e/': '/subscription?installment_sub=1',
+  // $79 for 18 Months
+  '/abc/subscription/offer/4654fe/': '/subscription?installment_sub=8',
+  // $19.95 every 4 Months
+  '/abc/subscription/offer/86e131/': '/subscription?installment_sub=6',
+  // $99 for 2 Years
+  '/abc/subscription/offer/892a5c/': '/abt/subscription/offer/892a5c',
+  // $9.95 for 3 Months Memorial Day
+  '/abc/subscription/offer/6b1628/': '/abt/subscription/offer/892a5c',
+  // $9.95 for 3 Months Memorial Day
+  '/abc/subscription/offer/08e813/': '/abc/update-browser',
+  // $5 for 2 Fall
+  '/abc/subscription/offer/839622/': '/abc/update-browser',
+  // $5 for 2 evergreen
+  '/abc/login/': '/login',
+  '/abc/prospect-register/': '/sub_d5',
+  '/abc/reactivation/': '/subscription',
+  '/abc/reactivation/es/': '/subscription',
+  '/abc/confirmation/': '/sub-confirm',
+  '/abc/subscription-annual/': '/subscription?installment_sub=19',
+  '/abc/upgrade/': '/upgrade-account',
+  '/abc/upgrade/sta/': '/abc/update-browser',
+  // Upgrade offer product is dynamic. See https://gitlab.aofl.com/Engineering-sites/sites/-/merge_requests/342/diffs. Sending user to update-browser instead
+  '/abc/upgrade/ext/': '/abc/update-browser',
+  // Upgrade offer product is dynamic. See https://gitlab.aofl.com/Engineering-sites/sites/-/merge_requests/342/diffs. Sending user to update-browser instead
+  '/abc/login/?sso=zendesk/': '/sso-login'
+};
+module.exports = legacyUrlMap;
+
+/***/ })
+
+/******/ });
+//# sourceMappingURL=/is-supported.js.map</script>
+    <script src="/abc/wdio-conditions.js"></script>
+    <script src="/assets-mkt/artifacts/rotation_config.js"></script>
+  <script charset="utf-8" src="/abc/508.js"></script><script charset="utf-8" src="/abc/1602.js"></script><script charset="utf-8" src="/abc/195.js"></script><script charset="utf-8" src="/abc/2.js"></script><script src="https://bat.bing.com/p/action/4021041.js" type="text/javascript" async=""></script><link type="text/css" rel="stylesheet" media="screen" href="https://www.lightboxcdn.com/static/fb_lightbox.2.1.5.css?cb=637187813483051452" /><style type="text/css">.fb_lightbox-margin{margin-right:0px;}</style></head>
+  <body><div id="lightboxjs-lightboxlib" style="display: none;"><div><iframe frameborder="0" id="lightboxjs-frame-lightboxlib"></iframe></div></div>
+    <route-view class="loaded"></route-view>
+
+    
+
+    <script>
+      (function() {
+        if (window.customElements) {
+          eval('/******/ (function(modules) { // webpackBootstrap\n/******/ 	// The module cache\n/******/ 	var installedModules = {};\n/******/\n/******/ 	// The require function\n/******/ 	function __webpack_require__(moduleId) {\n/******/\n/******/ 		// Check if module is in cache\n/******/ 		if(installedModules[moduleId]) {\n/******/ 			return installedModules[moduleId].exports;\n/******/ 		}\n/******/ 		// Create a new module (and put it into the cache)\n/******/ 		var module = installedModules[moduleId] = {\n/******/ 			i: moduleId,\n/******/ 			l: false,\n/******/ 			exports: {}\n/******/ 		};\n/******/\n/******/ 		// Execute the module function\n/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);\n/******/\n/******/ 		// Flag the module as loaded\n/******/ 		module.l = true;\n/******/\n/******/ 		// Return the exports of the module\n/******/ 		return module.exports;\n/******/ 	}\n/******/\n/******/\n/******/ 	// expose the modules object (__webpack_modules__)\n/******/ 	__webpack_require__.m = modules;\n/******/\n/******/ 	// expose the module cache\n/******/ 	__webpack_require__.c = installedModules;\n/******/\n/******/ 	// define getter function for harmony exports\n/******/ 	__webpack_require__.d = function(exports, name, getter) {\n/******/ 		if(!__webpack_require__.o(exports, name)) {\n/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });\n/******/ 		}\n/******/ 	};\n/******/\n/******/ 	// define __esModule on exports\n/******/ 	__webpack_require__.r = function(exports) {\n/******/ 		if(typeof Symbol !== \'undefined\' &amp;&amp; Symbol.toStringTag) {\n/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: \'Module\' });\n/******/ 		}\n/******/ 		Object.defineProperty(exports, \'__esModule\', { value: true });\n/******/ 	};\n/******/\n/******/ 	// create a fake namespace object\n/******/ 	// mode &amp; 1: value is a module id, require it\n/******/ 	// mode &amp; 2: merge all properties of value into the ns\n/******/ 	// mode &amp; 4: return value when already ns object\n/******/ 	// mode &amp; 8|1: behave like require\n/******/ 	__webpack_require__.t = function(value, mode) {\n/******/ 		if(mode &amp; 1) value = __webpack_require__(value);\n/******/ 		if(mode &amp; 8) return value;\n/******/ 		if((mode &amp; 4) &amp;&amp; typeof value === \'object\' &amp;&amp; value &amp;&amp; value.__esModule) return value;\n/******/ 		var ns = Object.create(null);\n/******/ 		__webpack_require__.r(ns);\n/******/ 		Object.defineProperty(ns, \'default\', { enumerable: true, value: value });\n/******/ 		if(mode &amp; 2 &amp;&amp; typeof value != \'string\') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));\n/******/ 		return ns;\n/******/ 	};\n/******/\n/******/ 	// getDefaultExport function for compatibility with non-harmony modules\n/******/ 	__webpack_require__.n = function(module) {\n/******/ 		var getter = module &amp;&amp; module.__esModule ?\n/******/ 			function getDefault() { return module[\'default\']; } :\n/******/ 			function getModuleExports() { return module; };\n/******/ 		__webpack_require__.d(getter, \'a\', getter);\n/******/ 		return getter;\n/******/ 	};\n/******/\n/******/ 	// Object.prototype.hasOwnProperty.call\n/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };\n/******/\n/******/ 	// __webpack_public_path__\n/******/ 	__webpack_require__.p = \"/abc/\";\n/******/\n/******/\n/******/ 	// Load entry module and return exports\n/******/ 	return __webpack_require__(__webpack_require__.s = \"./node_modules/@aofl/cli-lib/modules/webpack-config/custom-elements-es5-adapter.js\");\n/******/ })\n/************************************************************************/\n/******/ ({\n\n/***/ \"./node_modules/@aofl/cli-lib/modules/webpack-config/custom-elements-es5-adapter.js\":\n/***/ (function(module, exports) {\n\n/* eslint-disable */\n/**\n@license @nocompile\nCopyright (c) 2018 The Polymer Project Authors. All rights reserved.\nThis code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt\nThe complete set of authors may be found at http://polymer.github.io/AUTHORS.txt\nThe complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt\nCode distributed by Google as part of the polymer project is also\nsubject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt\n*/\n(function () {\n  \'use strict\';\n\n  (function(){if(void 0===window.Reflect||void 0===window.customElements||window.customElements.polyfillWrapFlushCallback)return;const a=HTMLElement;window.HTMLElement=function HTMLElement(){return Reflect.construct(a,[],this.constructor)},HTMLElement.prototype=a.prototype,HTMLElement.prototype.constructor=HTMLElement,Object.setPrototypeOf(HTMLElement,a);})();\n}());\n\n\n\n/***/ })\n\n/******/ });\n//# sourceMappingURL=/custom-elements-es5-adapter.js.map');
+        }
+      }());
+    </script>
+
+    
+
+    <template class="lazy-load loaded simple-modal-container"></template>
+
+    <script>
+      (function () {
+        if (typeof window.aofljsConfig !== 'undefined' &amp;&amp; window.aofljsConfig.__prerender__ === true) return;
+        var pixelScript = document.createElement('script');
+        if (typeof window.requestIdleCallback === 'function') {
+          window.requestIdleCallback(function() {
+            setTimeout(function() {
+              pixelScript.src = "/abc/analytics-pixels.js";
+              document.body.appendChild(pixelScript);
+            }, 2000)
+          });
+        } else {
+          setTimeout(function() {
+            pixelScript.src = "/abc/analytics-pixels.js";
+            document.body.appendChild(pixelScript);
+          }, 2000);
+        }
+      })();
+    </script>
+
+    <script src="/abc/main.js"></script>
+    <script async="">
+      (function () {
+        var pixelScript = document.createElement('script');
+        pixelScript.setAttribute('src', '//client.perimeterx.net/PXTU0h5FRQ/main.min.js');
+        document.body.appendChild(pixelScript);
+      })();
+    </script><script src="//client.perimeterx.net/PXTU0h5FRQ/main.min.js"></script>
+  
+
+<a tabindex="-1" aria-hidden="true" href="/abc/?_pxhc=1634293950305" rel="nofollow" target="_blank" style="width: 0px; height: 0px; line-height: 0; display: none;"></a><iframe width="1" height="1" style="display: none;"></iframe><script src="/abc/analytics-pixels.js"></script><iframe width="1" height="1" style="display: none;"></iframe><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon802015078821"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon104981894372" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=4021041&amp;Ver=2&amp;mid=631b800a-2f7a-462a-be6b-84cb8b8b25ed&amp;sid=356fd4102da311ecbe0dc306458791bf&amp;vid=357010e02da311ecb0d917889ea3b521&amp;vids=1&amp;pi=918639831&amp;lg=en-US&amp;sw=1792&amp;sh=1120&amp;sc=30&amp;tl=ABCmouse%3A%20Educational%20Games,%20Books,%20Puzzles%20%26%20Songs%20for%20Kids%20%26%20Toddlers&amp;kw=Learn,%20learning,%20learn%20to%20read,%20math,%20early%20learning,%20early%20childhood%20education,%20online%20books,%20phonics,%20printables,%20pbs,%20pbskids.com,%20starfall,%20starfall.com,%20funbrain,%20teacher&amp;p=https%3A%2F%2Fwww.abcmouse.com%2Fabc%2F%3F8a08850bc2%3DT2891739747.1634293948.9353&amp;r=&amp;lt=987&amp;evt=pageLoad&amp;msclkid=N&amp;sv=1&amp;rn=71002" /></div><div id="postup_rules" style="display: none;"><div id="session_pageviews_1" style="display:none;">#session_pageviews_1<br /></div><div id="capture_slider_active" style="display:none;">#capture_slider_active<br /></div><div id="capture_lightbox_active" style="display:none;">#capture_lightbox_active<br /></div></div></body></html>
